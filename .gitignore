@@ -20,3 +20,31 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Gradle generated files
+bin/
+gen/
+
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# Ignore Intellij project files and idea directory
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle related files and caches
+settings.gradle
+.gradletasknamecache
+.gradle/
+build/
+bin/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
